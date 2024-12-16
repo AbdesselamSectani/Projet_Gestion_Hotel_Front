@@ -1,0 +1,1 @@
+protoc --proto_path=./src/app/protos --js_out=import_style=commonjs,binary:./src/app/grpc --plugin=protoc-gen-grpc-web="C:\Users\HP\Downloads\protoc-gen-grpc-web\protoc-gen-grpc-web-1.5.0-windows-x86_64.exe" --grpc-web_out=import_style=typescript,mode=grpcwebtext:./src/app/grpc ./src/app/protos/reservation.proto

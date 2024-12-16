@@ -1,0 +1,16 @@
+<div class="d-flex justify-content-center align-items-center mt-5">
+    <div class="card">
+        <div class="tab-content" id="pills-tabContent">
+            <form [formGroup]="loginForm" (ngSubmit)="login()">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    
+                    <div class="form px-4 pt-5">
+                        <input formControlName="email" type="email" name="email" class="form-control" placeholder="Email" required="">
+                        <input formControlName="password" type="text" name="password" class="form-control" placeholder="Password" required="">
+                        <button type="submit" class="btn btn-dark btn-block">Login</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
